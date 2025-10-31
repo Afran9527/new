@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afran Kazi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="logo.gif" alt="Logo">
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="homepage.html">Graphic Design</a></li>
+          <li><a href="homepage.html">Web Design</a></li>
+          <li><a href="homepage.html">About Me</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">&#9776;</div>
+    </div>
+  </header>
+
+  <!-- HERO IMAGES -->
+  <!-- HERO IMAGES -->
+<section class="hero">
+  <img src="image1.gif" alt="Banner 1">
+  <img src="image2.gif" alt="Banner 2" class="responsive-banner">
+</section>
+
+
+  <!-- SKILLS -->
+  <section class="skills">
+    <h2>Software Skills</h2>
+    <div class="skills-container">
+
+      <div class="skillbox">
+        <img src="adobe.png" alt="Adobe">
+        <p>Adobe - 90%</p>
+        <div class="skill-bar"><span style="width:90%"></span></div>
+      </div>
+
+      <div class="skillbox">
+        <img src="photoshop.png" alt="Photoshop">
+        <p>Photoshop - 85%</p>
+        <div class="skill-bar"><span style="width:85%"></span></div>
+      </div>
+
+      <div class="skillbox">
+        <img src="html.png" alt="HTML">
+        <p>HTML - 70%</p>
+        <div class="skill-bar"><span style="width:70%"></span></div>
+      </div>
+
+      <div class="skillbox">
+        <img src="css.png" alt="CSS">
+        <p>CSS - 90%</p>
+        <div class="skill-bar"><span style="width:90%"></span></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GRAPHIC WORKS -->
+  <section class="works">
+    <h2>Graphic Works</h2>
+    <div class="works-grid">
+      <a href="1.gif"><img src="1.gif" alt="Work 1"></a>
+      <a href="2.gif"><img src="2.gif" alt="Work 2"></a>
+      <a href="3.gif"><img src="3.gif" alt="Work 3"></a>
+      <a href="4.gif"><img src="4.gif" alt="Work 4"></a>
+      <a href="5.gif"><img src="5.gif" alt="Work 5"></a>
+      <a href="6.gif"><img src="6.gif" alt="Work 6"></a>
+      <a href="7.gif"><img src="7.gif" alt="Work 7"></a>
+      <a href="8.gif"><img src="8.gif" alt="Work 8"></a>
+      <a href="9.jpg"><img src="9.jpg" alt="Work 9"></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <ul>
+      <li><img src="10.jpg" alt="Email Icon"> afranqazi22@gmail.com</li>
+      <li><img src="11.jpg" alt="Phone Icon"> +91 9527393519</li>
+      <li><img src="12.jpg" alt="Phone Icon"> +91 9527393519</li>
+    </ul>
+    <p>© 2025 Afran Qazi. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JS for Mobile Menu -->
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.navbar ul');
+    menuToggle.addEventListener('click', () => {
+      nav.classList.toggle('showing');
+    });
+  </script>
+
+</body>
+</html>
